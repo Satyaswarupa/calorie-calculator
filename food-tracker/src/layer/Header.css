@@ -1,0 +1,52 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    box-shadow: 0 0 10px rgb(62, 62, 62);
+}
+
+h2{
+    text-transform: uppercase;
+    padding: 0px 20px;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin: 0 2rem;
+}
+
+
+@media screen and (max-width:600px) {
+    h2{
+        text-transform: uppercase;
+        padding: 0px 20px;
+        font-size: small;
+    }
+
+    a{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: small;
+        margin: 0 2rem;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h2{
+        text-transform: uppercase;
+        padding: 5px 20px;
+    }
+  
+}
